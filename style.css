@@ -1,0 +1,38 @@
+
+#header{
+  font-family:arial;
+  margin:auto auto;
+  padding-top: 20px;
+}
+
+.fs-4{
+  padding-top: 1rem;
+  color:#41464b;
+  font-family:arial;
+  font-weight:50px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.konguid{
+  text-decoration: none;
+ }
+
+.row{
+  margin-bottom: 30px;
+  padding-top: 1rem;
+  text-align:center;
+}
+.col-sm-4{
+  padding-bottom:20px;
+}
+
+#calculator{
+padding: 10px 20px 20px 0px;
+text-align: left;
+}
+
+.fs-6{
+  padding: 20px 10px;
+  text-align: right;
+}

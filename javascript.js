@@ -21,12 +21,12 @@ var button=document.getElementById("button");
 
 button.addEventListener("click",function(){
   var avg=(Number(max1.value)+Number(max2.value)+Number(max3.value))*50/300;
-  var tamil=avg+(Number(tamil1.value)*20/100)+Number(tamil2.value)*3;
-  var english=avg+(Number(english1.value)*20/100)+Number(english2.value)*3;
-  var maths=avg+(Number(maths1.value)*20/100)+Number(maths2.value)*3;
-  var physics=avg+(Number(physics1.value)*20/100)+Number(physics2.value);;
-  var chemistry=avg+(Number(chemistry1.value)*20/100)+Number(chemistry2.value);
-  var biocom=avg+(Number(biocom1.value)*20/100)+Number(biocom2.value);
+  var tamil=Math.round(avg+(Number(tamil1.value)*20/100)+Number(tamil2.value)*3);
+  var english=Math.round(avg+(Number(english1.value)*20/100)+Number(english2.value)*3);
+  var maths=Math.round(avg+(Number(maths1.value)*20/100)+Number(maths2.value)*3);
+  var physics=Math.round(avg+(Number(physics1.value)*20/100)+Number(physics2.value));
+  var chemistry=Math.round(avg+(Number(chemistry1.value)*20/100)+Number(chemistry2.value));
+  var biocom=Math.round(avg+(Number(biocom1.value)*20/100)+Number(biocom2.value));
   var total=tamil+english+maths+physics+chemistry+biocom;
   if(avg===0){
     alert("Please!, Enter the respective columns");

@@ -27,11 +27,12 @@ button.addEventListener("click",function(){
   var physics=avg+(Number(physics1.value)*20/100)+Number(physics2.value);;
   var chemistry=avg+(Number(chemistry1.value)*20/100)+Number(chemistry2.value);
   var biocom=avg+(Number(biocom1.value)*20/100)+Number(biocom2.value);
+  var total=tamil+english+maths+physics+chemistry+biocom;
   if(avg===0){
     alert("Please!, Enter the respective columns");
   }
   else{
-  alert("Hello, "+nam.value+"\nYour Score is\nTamil : "+tamil+"\nEnglish : "+english+"\nMaths : "+maths+"\nPhysics : "+physics+"\nChemistry : "+chemistry+"\nBio/Computer : "+biocom);
+  alert("Hello, "+nam.value+"\nYour Score is\nTamil : "+tamil+"\nEnglish : "+english+"\nMaths : "+maths+"\nPhysics : "+physics+"\nChemistry : "+chemistry+"\nBio/Computer : "+biocom+"\nYour Total is "+total);
 }
 
 })

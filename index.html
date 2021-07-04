@@ -5,23 +5,23 @@
     <title>HSC Mark Calculator</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
 </head>
 <body>
 <div class="container-lg">
 <form  method="get">
-    <header class="border-bottom">
+<header class="border-bottom">
+<div class="row" id="header">
+<div class="col">
     <a class="konguid" href="https://kongu.ac.in/"><h1 class="fs-4">Kongu Engineering College Perundurai Tamil Nadu</h1></a>
-<!--  </div>
-    <div class="col-sm-2">
+</div>
+<div class="col-md-2">
     <span><a href="https://kongu.ac.in/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzH7bPeL_LVAl4U7z8Z-kaeYIRSiYg0nvoNQETe4CVYu8cZRjw-qEGkhiqz9LNY8NcbaY&usqp=CAU" style="width:50px"></a></span>
-  </div>
-</div>-->
-    </header>
+</div>
+</div>
+</header>
 <div class="row">
 <div class="col-md-4">
-
-  <div class="card border-success">
+<div class="card border-success">
 <h4  class="card-header  fw-normal card-head bg-success">SSLC Mark</h4>
 <div class="card-body">
 <table class="table table-striped table-hover" >
@@ -29,22 +29,20 @@
        <td>Max Mark 1</td>
        <td><input type="number" min="0" max="100" id="max1" size="5" required="true">/100 </td>
    </tr>
-     <tr>
+   <tr>
        <td>Max Mark 2</td>
        <td><input type="number" min="0" max="100" id="max2" size="5" required="true">/100</td>
    </tr>
-     <tr>
+   <tr>
        <td>Max Mark 3</td>
        <td><input type="number" min="0" max="100" id="max3" size="5" required="true">/100 </td>
    </tr>
 </table>
 </div>
-        
 </div>
 </div>
 <div class="col-md-4">
-
-  <div class="card border-warning">
+<div class="card border-warning">
 <h4 class="card-header fw-normal card-head bg-warning">11th Mark</h4>
 <div class="card-body">
   <div class="table table-responsive">
@@ -53,39 +51,37 @@
        <td>Tamil</td>
        <td><input type="number" min="0" max="100" id="tamil1" size="5" required="true">/90 </td>
    </tr>
-     <tr>
+   <tr>
        <td>English</td>
        <td><input type="number" min="0" max="100" id="english1" size="5" required="true">/90</td>
    </tr>
-     <tr>
+   <tr>
        <td>Maths</td>
        <td><input type="number" min="0" max="100" id="maths1" size="5" required="true">/90 </td>
    </tr>
-     <tr>
+   <tr>
        <td>Physics</td>
        <td><input type="number" min="0" max="100" id="physics1" size="5" required="true">/70 </td>
    </tr>
-     <tr>
+   <tr>
        <td>Chemistry</td>
        <td><input type="number" min="0" max="100" id="chemistry1" size="5" required="true">/70 </td>
    </tr>
-     <tr>
+   <tr>
        <td>Bio / Computer</td>
        <td><input type="number" min="0" max="100" id="biocom1" size="5" required="true">/70 </td>
    </tr>
 </table>
 </div>
 </div>
- 
-</div>
+ </div>
 </div>
 <div class="col-md-4">
-
-  <div class="card border-primary">
-      <div class="table table-responsive">
+<div class="card border-primary">
+<div class="table table-responsive">
 <h4 class="card-header fw-normal bg-primary" style="color:white">12th Mark</h4>
 <div class="card-body">
-    <table class="table table-striped table-hover table-responsive" >
+<table class="table table-striped table-hover table-responsive" >
    <tr>
        <td>Tamil</td>
        <td><input type="number" min="0" max="100" id="tamil2" size="5" required="true">/10 </td>
@@ -112,7 +108,6 @@
    </tr>
 </table>
 </div>
-     
 </div>
 </div>
 </div>
@@ -136,7 +131,7 @@
 </div>
 </form>
 <footer><p class="fs-6 border-top">Development by Janarthanan T</p></footer>
-    </div>
+</div>
 <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
